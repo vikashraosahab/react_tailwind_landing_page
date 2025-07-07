@@ -6,7 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-        
+        fontFamily : {
+            lato : ['Lato','sans-serif'],
+            tektur: ['Tektur','verdana']
+        }
     },
   },
   plugins: [],
