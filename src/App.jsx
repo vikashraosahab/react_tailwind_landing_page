@@ -1,10 +1,14 @@
-import { Fragment } from 'react'
+import {HeaderComponent} from "./components/Header.jsx"
+import {FooterComponent} from "./components/Footer.jsx"
+import BodyComponent from './components/Body.jsx'
 
 export default function App() {
   return (
-    <Fragment>
-      <h1 className="bg-green-500 font-mono text-center">Hello world</h1>
-    </Fragment>
+    <div>
+      <HeaderComponent />
+      <BodyComponent />
+      <FooterComponent />
+    </div>
   )
 }
 
