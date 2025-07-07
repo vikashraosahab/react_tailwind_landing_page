@@ -1,14 +1,64 @@
-# React + Vite
+# React Tailwind Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with **React**, **Tailwind CSS**, and **Vite**.  
+This template is ideal for SaaS, product, or startup websites, featuring a clean design and fast setup.
 
-Currently, two official plugins are available:
+## Features
+![Screenshot from 2025-07-08 05-14-03](https://github.com/user-attachments/assets/9646f242-1df3-4bf1-8826-6ffde3b17d2a)
+![Screenshot from 2025-07-08 05-13-58](https://github.com/user-attachments/assets/cfa41b23-0fb4-4c69-ab1d-26d47a0bd818)
+![Screenshot from 2025-07-08 05-13-43](https://github.com/user-attachments/assets/69c9fa1a-bd54-4b58-9bae-4a4c207dc116)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ **Vite** for lightning-fast development
+- 🎨 **Tailwind CSS** for utility-first styling
+- 💻 **Responsive** layout for all devices
+- 🖼️ Custom SVG and PNG assets
+- 🔥 Google Fonts integration (Lato, Tektur)
+- 📦 Minimal dependencies
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# react_tailwind_landing_page
-# react_tailwind_landing_page
+```
+├── public/
+│   └── assets/           # SVG and PNG images
+├── src/
+│   ├── components/       # Header, Body, Footer components
+│   ├── App.jsx           # Main app layout
+│   ├── index.css         # Tailwind and font imports
+│   └── main.jsx          # Entry point
+├── index.html
+├── tailwind.config.js
+├── postcss.config.mjs
+├── package.json
+└── ...
+```
+
+## Getting Started
+
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```sh
+   npm run build
+   ```
+
+## Customization
+
+- Update images in [`public/assets/`](public/assets/)
+- Edit content in [`src/components/`](src/components/)
+- Change fonts in [`src/index.css`](src/index.css) and [`tailwind.config.js`](tailwind.config.js)
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+Made with ❤️ using React and Tailwind CSS.
