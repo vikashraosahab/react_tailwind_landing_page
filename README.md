@@ -6,7 +6,8 @@ This template is ideal for SaaS, product, or startup websites, featuring a clean
 ## Features
 ![Screenshot from 2025-07-08 05-14-03](https://github.com/user-attachments/assets/9646f242-1df3-4bf1-8826-6ffde3b17d2a)
 ![Screenshot from 2025-07-08 05-13-58](https://github.com/user-attachments/assets/cfa41b23-0fb4-4c69-ab1d-26d47a0bd818)
-![Screenshot from 2025-07-08 05-13-43](https://github.com/user-attachments/assets/69c9fa1a-bd54-4b58-9bae-4a4c207dc116)
+![Screenshot from 2025-07-08 05-20-53](https://github.com/user-attachments/assets/3bfcf3a1-2fea-45cc-992a-8802ca5c0ad8)
+
 
 - ⚡️ **Vite** for lightning-fast development
 - 🎨 **Tailwind CSS** for utility-first styling
